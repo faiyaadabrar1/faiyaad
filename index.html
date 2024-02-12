@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>new task</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,400;0,6..12,500;0,6..12,600;0,6..12,700;1,6..12,400&display=swap" rel="stylesheet">
+	<h1 class="form"><span>Ticket</span> Registration <span>Form</span></h1>
+</head>
+<body>
+<form>
+	<label>first name</label><br>
+	<input type="text" name="fname" placeholder="First name"><br><br>
+	<label style="margin-bottom: 0px;">last name</label><br>
+	<input style="margin-top: 0px;" type="text" name="lname" placeholder="last name">
+	<br><br>
+	<input type="email" name="Email" placeholder="e-mail">
+	<br><br>
+	<input type="password" name="pass" placeholder="password">
+	<br><br>
+	<input type="text" name="contact" placeholder="contact number">
+	<br><br>
+	<label>birth date</label><br>
+	<input type="date" name=""><br><br><br>
+
+
+	<h2 style="color: navy">Gender</h2>
+	<input type="radio" name="Gender" value="male">
+	<label>male</label>
+	<input type="radio" name="Gender" value="female">
+	<label>female</label><br><br><br>
+
+	<h2 style="color: indigo">choose food</h2>
+	<input type="checkbox" name="rice">
+	<label>rice</label>
+	<input type="checkbox" name="beef">
+	<label>beef</label>
+	<input type="checkbox" name="mutton">
+	<label>muttton</label>
+	<input type="checkbox" name="veg">
+	<label>vegetable</label>
+	<input type="checkbox" name="fish">
+	<label>fish</label>
+
+	<h2 style="color: red">Ticket</h2>
+	<label><b>from</b></label>
+
+	<select>
+		<option value="0">---Choose---</option>
+		<option value="1">london</option>
+        <option value="2">bangkok </option>
+        <option value="3">mumbai</option>
+        <option value="4">rajashthan</option>
+        <option value="5">dhaka </option>
+        <option value="6">toronto </option>
+
+	</select><br><br><br>
+	<label><b>to</b></label>
+	<select>
+		<option value="a">---Choose---</option>
+		<option value="b">london</option>
+        <option value="c">bangkok</option>
+        <option value="d">mumbai</option>
+        <option value="h">rajashthan</option>
+        <option value="i">dhaka</option>
+        <option value="j">toronto</option>
+	</select><br><br><br>
+
+	<button id="color" onclick="alert('submitted')">submit</button><br><br>
+	<h2>Thank you for choosing this airline !</h2></p>
+
+</form>
+</body>
+</html>
